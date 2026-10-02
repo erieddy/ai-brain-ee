@@ -19,7 +19,7 @@ Inspired by Jason Cyr's [ai-agent-workflow](https://github.com/Jason-Cyr/ai-agen
 
 ## Getting Started
 
-1. Install [Obsidian](https://obsidian.md) and create a vault locally.
+1. Install [Obsidian](https://obsidian.md) and create a vault and mount it locally.
 2. Decide and connect your AI model (Claude or ChatGPT — highly recommended).
 3. Clone this repo and copy everything in [`templates/`](templates/) into the root of your Obsidian vault.
 4. Give your agent access to the vault on your machine, then say: *"Read AGENTS.md and start the session."*
@@ -157,4 +157,4 @@ The three reports cover different ground and never repeat each other's content. 
 
 ## License
 
-[TBD]
+This project is licensed under the [MIT License](LICENSE).
