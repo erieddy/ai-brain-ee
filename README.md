@@ -4,7 +4,7 @@
 
 Clone the repo, copy [`templates/`](templates/) into an Obsidian vault, connect an AI client with local file access, and make it yours. Every file is plain Markdown with `[placeholders]` to fill in or delete. See **Getting Started** below.
 
-Inspired by Jason Cyr's [ai-agent-workflow](https://github.com/Jason-Cyr/ai-agent-workflow).
+**Starting point:** [Jason Cyr](https://github.com/Jason-Cyr)'s [ai-agent-workflow](https://github.com/Jason-Cyr/ai-agent-workflow) — persistent agent memory in Obsidian, standing instructions in `AGENTS.md`, and the core template pattern. AI Brain builds on that idea and adds inbox filing, modes, a specialist team, scheduled reports, and a setup wizard.
 
 ---
 
@@ -152,6 +152,12 @@ Each job is a single prompt. Set them up in your client's scheduler. See `SCHEDU
 | **Life** | What's happening outside work? | No |
 
 The three reports cover different ground and never repeat each other's content. Part 2 of each work report is a blunt read on your week, written for you only.
+
+---
+
+## Credits
+
+Thanks to **[Jason Cyr](https://github.com/Jason-Cyr)** for [ai-agent-workflow](https://github.com/Jason-Cyr/ai-agent-workflow), the open-source starting point for vault-based agent memory and workflow templates.
 
 ---
 
