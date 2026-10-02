@@ -2,7 +2,7 @@
 
 > **A starter vault that gives an AI assistant memory, a personality, a team, and a routine.**
 
-Copy [`templates/`](templates/) into a folder, point any AI client that can read and write local files at it, and make it yours. Every file is plain Markdown with `[placeholders]` to fill in or delete.
+Clone the repo, copy [`templates/`](templates/) into an Obsidian vault, connect an AI client with local file access, and make it yours. Every file is plain Markdown with `[placeholders]` to fill in or delete. See **Getting Started** below.
 
 Inspired by Jason Cyr's [ai-agent-workflow](https://github.com/Jason-Cyr/ai-agent-workflow).
 
@@ -14,6 +14,17 @@ Inspired by Jason Cyr's [ai-agent-workflow](https://github.com/Jason-Cyr/ai-agen
 - **The assistant files it.** A nightly sweep moves each item to its home, links people and companies, and archives the note once it's empty.
 - **The files are the memory.** The assistant starts every session with nothing. Its soul, its memory, and your profile are what make it the same assistant tomorrow.
 - **It reports back.** Weekly reports show what you delivered, what you're carrying, and how life outside work is going.
+
+---
+
+## Getting Started
+
+1. Install [Obsidian](https://obsidian.md) and create a vault locally.
+2. Decide and connect your AI model (Claude or ChatGPT — highly recommended).
+3. Clone this repo and copy everything in [`templates/`](templates/) into the root of your Obsidian vault.
+4. Give your agent access to the vault on your machine, then say: *"Read AGENTS.md and start the session."*
+
+Rename `AGENTS.md` if your client expects a different boot file (`CLAUDE.md`, `GEMINI.md`, and so on). MCP connectors for calendar, email, and chat are optional. **Keep secrets out** — anything in the vault can end up in the model's context.
 
 ---
 
@@ -141,18 +152,6 @@ Each job is a single prompt. Set them up in your client's scheduler. See `SCHEDU
 | **Life** | What's happening outside work? | No |
 
 The three reports cover different ground and never repeat each other's content. Part 2 of each work report is a blunt read on your week, written for you only.
-
----
-
-## Getting Started
-
-1. Copy `templates/` to wherever you keep notes ([Obsidian](https://obsidian.md) with the Dataview plugin is recommended)
-2. Fill in `SOUL.md` and `USER.md`. Everything else can wait
-3. Start your AI client in that folder and say: *"Read AGENTS.md and start the session."*
-
-**What you need:** an AI client that can read and write files in a local folder and follow an instructions file. Rename `AGENTS.md` if your client looks for a different name (`CLAUDE.md`, `GEMINI.md`). MCP connectors for calendar, email, and chat are optional.
-
-**Keep secrets out.** Anything in the vault can end up in the model's context.
 
 ---
 
